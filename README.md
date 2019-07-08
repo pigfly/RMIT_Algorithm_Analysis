@@ -15,9 +15,6 @@ It tries to port as many concepts from the original version as possible, but som
 * ✈️ [Where to ask question](https://github.com/pigfly/RMIT_Algorithm_Analysis/issues)
 * ⏱ When does each session begin ?
     * The web full-stack session will start at every Friday night starting at 8:00PM A.E.S.T.
-* ⏱ When is assignment deadline ? 
-    * The current week's assignment will be due on next Thursday 8:00 PM
-    * e.g. Alex attended 26th July session, his assignment for that week will be due on 1st August 8:00 PM 
 * 👨‍💻👩‍💻 Am I asking stupid question ?
     * There is no stupid question, if you think something is not clear, ask away in [where to ask question](https://github.com/pigfly/RMIT_Algorithm_Analysis/issues)
 
@@ -47,7 +44,7 @@ It tries to port as many concepts from the original version as possible, but som
 ##### Array
 | Title | Solution | Difficulty | Time | Space |
 | ----- | -------- | ---------- | ---- | ----- |
-[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)| [Swift](./Array/MaxConsecutiveOnes.swift)| Easy| O(n)| O(1)|
+[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)| [Swift](./Array/Swift/MaxConsecutiveOnes.swift)| Easy| O(n)| O(1)|
 [Heaters](https://leetcode.com/problems/heaters/)| [Swift](./Array/Heaters.swift)| Easy| O(nlogn)| O(1)|
 [Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs/)| [Swift](./Array/NumberBoomerangs.swift)| Easy| O(n ^ 2)| O(n)|
 [Island Perimeter](https://leetcode.com/problems/island-perimeter/)| [Swift](./Array/IslandPerimeter.swift)| Easy| O(nm)| O(1)|
