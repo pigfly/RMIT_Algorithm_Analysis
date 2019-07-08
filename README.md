@@ -46,7 +46,7 @@ It tries to port as many concepts from the original version as possible, but som
 | ----- | -------- | ---------- | ---- | ----- |
 [Max Consecutive Ones](./Array/Java/MaxConsecutiveOnes.java)| [Java](./Array/Java/MaxConsecutiveOnes.java), [Swift](./Array/Swift/MaxConsecutiveOnes.swift)| Easy| O(n)| O(1)|
 [Heaters](./Array/Java/Heaters.java)| [Java](./Array/Java/Heaters.swift), [Swift](./Array/Swift/Heaters.swift)| Easy| O(nlogn)| O(1)|
-[Number of Boomerangs](./Array/Java/NumberOfBoomerangs.java)| [Java](./Array/Java/NumberOfBoomerangs.java), [Swift](./Array/NumberBoomerangs.swift)| Easy| O(n ^ 2)| O(n)|
+[Number of Boomerangs](./Array/Java/NumberOfBoomerangs.java)| [Java](./Array/Java/NumberOfBoomerangs.java), [Swift](./Array/Swift/NumberOfBoomerangs.swift)| Easy| O(n ^ 2)| O(n)|
 [Island Perimeter](https://leetcode.com/problems/island-perimeter/)| [Swift](./Array/IslandPerimeter.swift)| Easy| O(nm)| O(1)|
 [Majority Element](https://leetcode.com/problems/majority-element/)| [Swift](./Array/MajorityElement.swift)| Easy| O(n)| O(1)|
 [Majority Element II](https://leetcode.com/problems/majority-element-ii/)| [Swift](./Array/MajorityElementII.swift)| Medium| O(n)| O(1)|
