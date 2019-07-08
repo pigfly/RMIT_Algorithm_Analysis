@@ -45,7 +45,7 @@ It tries to port as many concepts from the original version as possible, but som
 | Title | Solution | Difficulty | Time | Space |
 | ----- | -------- | ---------- | ---- | ----- |
 [Max Consecutive Ones](./Array/Java/MaxConsecutiveOnes.java)| [Java](./Array/Java/MaxConsecutiveOnes.java), [Swift](./Array/Swift/MaxConsecutiveOnes.swift)| Easy| O(n)| O(1)|
-[Heaters](https://leetcode.com/problems/heaters/)| [Swift](./Array/Heaters.swift)| Easy| O(nlogn)| O(1)|
+[Heaters](./Array/Java/Heaters.java)| [Java](./Array/Java/Heaters.swift), [Swift](./Array/Swift/Heaters.swift)| Easy| O(nlogn)| O(1)|
 [Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs/)| [Swift](./Array/NumberBoomerangs.swift)| Easy| O(n ^ 2)| O(n)|
 [Island Perimeter](https://leetcode.com/problems/island-perimeter/)| [Swift](./Array/IslandPerimeter.swift)| Easy| O(nm)| O(1)|
 [Majority Element](https://leetcode.com/problems/majority-element/)| [Swift](./Array/MajorityElement.swift)| Easy| O(n)| O(1)|
