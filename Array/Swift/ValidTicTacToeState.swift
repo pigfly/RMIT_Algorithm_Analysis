@@ -42,7 +42,68 @@
 // Each board[i][j] is a character in the set {" ", "X", "O"}.
 
 class Solution {
+    var gameBoard: [[Character]] = []
+    var numberOfX: Int = 0
+    var numberOfO: Int = 0
+
     func validTicTacToe(_ board: [String]) -> Bool {
+
+        initGameBoard(board)
+
+        // X goes first
+        if numberOfO > numberOfX { return false }
+        // Players take turns placing characters
+        if numberOfX - numberOfO > 1 { return false }
+        // Both Players can't win
+        if didPlayerWins(with: Character("X")) && didPlayerWins(with: Character("O")) { return false }
+        // X wins only, but wrong O numbers
+        if didPlayerWins(with: Character("X")) && numberOfX == numberOfO { return false }
+        // O wins only, but wrong X numbers
+        if didPlayerWins(with: Character("O")) && numberOfX > numberOfO { return false }
+
+        return true
+    }
+
+    func initGameBoard(_ board: [String]) {
+        gameBoard.reserveCapacity(3)
         
+        for i in 0...2 {
+            for j in 0...2 {
+                let char: Character = Array(board[i])[j]
+                gameBoard[i][j] = char
+
+                if char == Character("X") { numberOfX += 1 }
+                if char == Character("O") { numberOfO += 1 }
+            }
+        }
+    }
+
+    func didPlayerWins(with char: Character) -> Bool {
+
+        func didRowHasSame(_ char: Character) -> Bool {
+            for i in 0...2 {
+                if gameBoard[i][0] == char && gameBoard[i][1] == char && gameBoard[i][0] == char { return true }
+            }
+            return false
+        }
+
+        func didColumnHasSame(_ char: Character) -> Bool {
+            for i in 0...2 {
+                if gameBoard[0][i] == char && gameBoard[1][i] == char && gameBoard[2][i] == char { return true }
+            }
+            return false
+        }
+
+        func didDiagnolHasSame(_ char: Character) -> Bool {
+            if gameBoard[0][0] == char && gameBoard[1][1] == char && gameBoard[2][2] == char { return true }
+            if gameBoard[0][2] == char && gameBoard[1][1] == char && gameBoard[2][0] == char { return true }
+            return false
+        }
+
+        if didRowHasSame(char) { return true }
+        if didColumnHasSame(char) { return true }
+        if didDiagnolHasSame(char) { return true }
+
+        return false
     }
 }
