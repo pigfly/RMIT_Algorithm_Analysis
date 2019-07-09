@@ -7,39 +7,23 @@
  * - https://qmz.com.au
  */
 
-// A Tic-Tac-Toe board is given as a string array board. Return True if and only if it is possible to reach this board position during the course of a valid tic-tac-toe game.
+// You are given a map in form of a two-dimensional integer grid where 1 represents land and 0 represents water.
 
-// The board is a 3 x 3 array, and consists of characters " ", "X", and "O".  The " " character represents an empty square.
+// Grid cells are connected horizontally/vertically (not diagonally). The grid is completely surrounded by water, and there is exactly one island (i.e., one or more connected land cells).
 
-// Here are the rules of Tic-Tac-Toe:
+// The island doesn't have "lakes" (water inside that isn't connected to the water around the island). One cell is a square with side length 1. The grid is rectangular, width and height don't exceed 100. Determine the perimeter of the island.
 
-// Players take turns placing characters into empty squares (" ").
-// The first player always places "X" characters, while the second player always places "O" characters.
-// "X" and "O" characters are always placed into empty squares, never filled ones.
-// The game ends when there are 3 of the same (non-empty) character filling any row, column, or diagonal.
-// The game also ends if all squares are non-empty.
-// No more moves can be played if the game is over.
-// Example 1:
-// Input: board = ["O  ", "   ", "   "]
-// Output: false
-// Explanation: The first player always plays "X".
+ 
 
-// Example 2:
-// Input: board = ["XOX", " X ", "   "]
-// Output: false
-// Explanation: Players take turns making moves.
+// Example:
 
-// Example 3:
-// Input: board = ["XXX", "   ", "OOO"]
-// Output: false
+// Input:
+// [[0,1,0,0],
+//  [1,1,1,0],
+//  [0,1,0,0],
+//  [1,1,0,0]]
 
-// Example 4:
-// Input: board = ["XOX", "O O", "XOX"]
-// Output: true
-// Note:
-
-// board is a length-3 array of strings, where each string board[i] has length 3.
-// Each board[i][j] is a character in the set {" ", "X", "O"}.
+// Output: 16
 
 class Solution {
     public int islandPerimeter(int[][] grid) {
