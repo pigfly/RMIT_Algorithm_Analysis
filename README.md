@@ -49,7 +49,7 @@ It tries to port as many concepts from the original version as possible, but som
 [Number of Boomerangs](./Array/Java/NumberOfBoomerangs.java)| [Java](./Array/Java/NumberOfBoomerangs.java), [Swift](./Array/Swift/NumberOfBoomerangs.swift)| Easy| O(n ^ 2)| O(n)|
 [Valid Tic-Tac-Toe State](./Array/Java/ValidTicTacToeState.java)| [Java](./Array/Java/ValidTicTacToeState.java), [Swift](./Array/Swift/ValidTicTacToeState.swift)| Medium| O(n ^ 2)| O(n ^ 2)|
 [Island Perimeter](./Array/Java/IslandPerimeter.java)| [Java](./Array/Java/IslandPerimeter.java), [Swift](./Array/Swift/IslandPerimeter.swift)| Easy| O(nm)| O(1)|
-[Majority Element](https://leetcode.com/problems/majority-element/)| [Swift](./Array/MajorityElement.swift)| Easy| O(n)| O(1)|
+[Majority Element](./Array/Java/MajorityElement.java)| [Java](./Array/Java/MajorityElement.java), [Swift](./Array/Swift/MajorityElement.swift)| Easy| O(n)| O(1)|
 [Majority Element II](https://leetcode.com/problems/majority-element-ii/)| [Swift](./Array/MajorityElementII.swift)| Medium| O(n)| O(1)|
 [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)| [Swift](./Array/IntersectionTwoArrays.swift)| Easy| O(n)| O(n)|
 [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)| [Swift](./Array/IntersectionTwoArraysII.swift)| Easy| O(n)| O(n)|
