@@ -21,6 +21,13 @@
 
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
-        
+        int result = 0, counter = 0;
+
+        for (int digit : nums) {
+            counter = digit == 0 ? 0 : counter + 1;
+            result = Math.max(result, counter);
+        }
+
+        return result;
     }
 }

@@ -21,6 +21,16 @@
 
 class Solution {
     func findMaxConsecutiveOnes(_ nums: [Int]) -> Int {
-        
+        guard !nums.isEmpty else { return 0 }
+
+        var result: Int = 0
+        var counter: Int = 0
+
+        for digit in nums {
+            counter = digit == 0 ? 0 : counter + 1
+            result = max(result, counter)
+        }
+
+        return result
     }
 }
