@@ -30,6 +30,21 @@
 
 class Solution {
     func majorityElement(_ nums: [Int]) -> Int {
-        
+        // Moore Voting
+        var result: Int = nums[0]
+        var counter: Int = 0
+
+        for number in nums {
+            if counter == 0 {
+                result = number
+                counter += 1
+            } else if number == result {
+                counter += 1
+            } else {
+                counter -= 1
+            }
+        }
+
+        return result
     }
 }
