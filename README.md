@@ -45,7 +45,7 @@ It tries to port as many concepts from the original version as possible, but som
 | Title | Solution | Difficulty | Time | Space |
 | ----- | -------- | ---------- | ---- | ----- |
 [Max Consecutive Ones](./Array/Java/MaxConsecutiveOnes.java)| [Java](./Array/Java/MaxConsecutiveOnes.java), [Swift](./Array/Swift/MaxConsecutiveOnes.swift)| Easy| O(n)| O(1)|
-[Heaters](./Array/Java/Heaters.java)| [Java](./Array/Java/Heaters.swift), [Swift](./Array/Swift/Heaters.swift)| Easy| O(nlogn)| O(1)|
+[Heaters](./Array/Java/Heaters.java)| [Java](./Array/Java/Heaters.java), [Swift](./Array/Swift/Heaters.swift)| Easy| O(nlogn)| O(1)|
 [Number of Boomerangs](./Array/Java/NumberOfBoomerangs.java)| [Java](./Array/Java/NumberOfBoomerangs.java), [Swift](./Array/Swift/NumberOfBoomerangs.swift)| Easy| O(n ^ 2)| O(n)|
 [Valid Tic-Tac-Toe State](./Array/Java/ValidTicTacToeState.java)| [Java](./Array/Java/ValidTicTacToeState.java), [Swift](./Array/Swift/ValidTicTacToeState.swift)| Medium| O(n ^ 2)| O(n ^ 2)|
 [Island Perimeter](./Array/Java/IslandPerimeter.java)| [Java](./Array/Java/IslandPerimeter.java), [Swift](./Array/Swift/IslandPerimeter.swift)| Easy| O(nm)| O(1)|
