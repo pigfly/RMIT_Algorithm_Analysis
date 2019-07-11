@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 /**                                                                                 
   ,dW"Yvd `7MMpMMMb.pMMMb.  M"""MMV     ,p6"bo   ,pW"Wq.`7MMpMMMb.pMMMb.      ,6"Yb.`7MM  `7MM  
  ,W'   MM   MM    MM    MM  '  AMV     6M'  OO  6W'   `Wb MM    MM    MM     8)   MM  MM    MM  
@@ -32,6 +34,23 @@
 
 class Solution {
     public int numberOfBoomerangs(int[][] points) {
-        
+        int result = 0;
+
+        for (int[] basePoint : points) {
+          HashMap<Integer, Integer> distanceToCount = new HashMap<>();
+
+          for (int[] point : points) {
+            int deltaX = basePoint[0] - point[0];
+            int deltaY = basePoint[1] - point[1];
+            int distance = deltaX * deltaX + deltaY * deltaY;
+            distanceToCount.put(distance, distanceToCount.getOrDefault(distance, 0) + 1);
+          }
+
+          for (Integer count : distanceToCount.values()) {
+            result += count * (count - 1);
+          }
+        }
+
+        return result;
     }
 }

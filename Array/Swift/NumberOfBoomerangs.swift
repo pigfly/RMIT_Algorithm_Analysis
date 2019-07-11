@@ -30,7 +30,27 @@
 // The two boomerangs are [[1,0],[0,0],[2,0]] and [[1,0],[2,0],[0,0]]
 
 class Solution {
+    // given point a, if b, c have same distance to a, then result is 2
+    // given point a, if b, c, d have same distance to a, then result is 6
+    // given point a, if there are n points have same distance to a, then result is n*(n-1)
     func numberOfBoomerangs(_ points: [[Int]]) -> Int {
-        
+        var result: Int = 0
+
+        for basePoint in points {
+            var distanceToCount: [Int: Int] = [:]
+
+            for point in points {
+                let deltaX: Int = basePoint.first! - point.first!
+                let deltaY: Int = basePoint.last! - point.last!
+                let distance: Int = deltaX * deltaX + deltaY * deltaY
+                distanceToCount[distance, default: 0] += 1
+            }
+
+            for count in distanceToCount.values {
+                result += count * (count - 1)
+            }
+        }
+
+        return result
     }
 }
