@@ -36,6 +36,29 @@
 
 class Solution {
     func findRadius(_ houses: [Int], _ heaters: [Int]) -> Int {
-        
+        var result: Int = 0
+        let heatersSorted: [Int] = heaters.sorted()
+
+        for house in houses {
+            var left: Int = 0
+            var right: Int = heatersSorted.count - 1
+
+            // find the first heater that is >= the house
+            while left < right {
+                let mid: Int = left + (right - left) / 2
+                if heatersSorted[mid] < house {
+                    left = mid + 1
+                } else {
+                    right = mid
+                }
+            }
+
+            // compare the previous house and current house
+            let delta1: Int = abs(heatersSorted[right] - house)
+            let delta2: Int = right == 0 ? Int.max : abs(heatersSorted[right - 1] - house)
+            result = max(result, min(delta1, delta2))
+        }
+
+        return result
     }
 }
