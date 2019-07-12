@@ -51,7 +51,7 @@ It tries to port as many concepts from the original version as possible, but som
 [Island Perimeter](./Array/Java/IslandPerimeter.java)| [Java](./Array/Java/IslandPerimeter.java), [Swift](./Array/Swift/IslandPerimeter.swift)| Easy| O(nm)| O(1)|
 [Majority Element](./Array/Java/MajorityElement.java)| [Java](./Array/Java/MajorityElement.java), [Swift](./Array/Swift/MajorityElement.swift)| Easy| O(n)| O(1)|
 [Majority Element II](./Array/Java/MajorityElementII.java)| [Java](./Array/Java/MajorityElementII.java), [Swift](./Array/Swift/MajorityElementII.swift)| Medium| O(n)| O(1)|
-[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)| [Swift](./Array/IntersectionTwoArrays.swift)| Easy| O(n)| O(n)|
+[Intersection of Two Arrays](./Array/Java/IntersectionOfTwoArrays.java)| [Java](./Array/Java/IntersectionOfTwoArrays.java), [Swift](./Array/Swift/IntersectionOfTwoArrays.swift)| Easy| O(n)| O(n)|
 [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)| [Swift](./Array/IntersectionTwoArraysII.swift)| Easy| O(n)| O(n)|
 [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)| [Swift](./Array/ContainsDuplicate.swift)| Easy| O(n)| O(n)|
 [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)| [Swift](./Array/ContainsDuplicateII.swift)| Easy| O(n)| O(n)|
