@@ -53,7 +53,7 @@ It tries to port as many concepts from the original version as possible, but som
 [Majority Element II](./Array/Java/MajorityElementII.java)| [Java](./Array/Java/MajorityElementII.java), [Swift](./Array/Swift/MajorityElementII.swift)| Medium| O(n)| O(1)|
 [Intersection of Two Arrays](./Array/Java/IntersectionOfTwoArrays.java)| [Java](./Array/Java/IntersectionOfTwoArrays.java), [Swift](./Array/Swift/IntersectionOfTwoArrays.swift)| Easy| O(n)| O(n)|
 [Intersection of Two Arrays II](./Array/Java/IntersectionOfTwoArraysII.java)| [Java](./Array/Java/IntersectionOfTwoArraysII.java), [Swift](./Array/Swift/IntersectionOfTwoArraysII.swift)| Easy| O(n)| O(n)|
-[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)| [Swift](./Array/ContainsDuplicate.swift)| Easy| O(n)| O(n)|
+[Contains Duplicate](./Array/Java/ContainsDuplicate.java)| [Java](./Array/Java/ContainsDuplicate.java), [Swift](./Array/Swift/ContainsDuplicate.swift)| Easy| O(n)| O(n)|
 [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)| [Swift](./Array/ContainsDuplicateII.swift)| Easy| O(n)| O(n)|
 [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Swift](./Array/RemoveDuplicatesFromSortedArray.swift)| Easy| O(n)| O(1)|
 [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)| [Swift](./Array/RemoveDuplicatesFromSortedArrayII.swift)| Medium| O(n)| O(1)|
