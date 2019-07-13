@@ -35,6 +35,26 @@
 
 class Solution {
     public int islandPerimeter(int[][] grid) {
-        
+        int result = 0;
+        if (grid.length == 0) { return result; }
+
+        int rowLength = grid.length; int columnLength = grid[0].length;
+
+        for (int row = 0; row < rowLength; row++) {
+          for (int column = 0; column < columnLength; column++) {
+            if (grid[row][column] == 0) { continue; }
+              
+            // left edge
+            if (column == 0 || grid[row][column - 1] == 0) { result += 1; }
+            // top edge
+            if (row == 0 || grid[row - 1][column] == 0) { result += 1; }
+            // right edge
+            if (column == columnLength - 1 || grid[row][column + 1] == 0) { result += 1; }  
+            // bottom edge
+            if (row == rowLength - 1 || grid[row + 1][column] == 0) { result += 1; }
+          }
+        }
+
+        return result;
     }
 }
