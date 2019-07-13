@@ -30,6 +30,51 @@
 
 class Solution {
     func majorityElement(_ nums: [Int]) -> [Int] {
-        
+        var result: [Int] = []
+
+        var candidate1: Int = .max, candidate2: Int = .max
+        var counter1: Int = 0, counter2: Int = 0
+
+        // Moore Voting
+        // 1.find potential candidates
+        for number in nums {
+            // ❗️count first e.g. [8, 8, 7, 7, 7]
+            if number == candidate1 {
+                counter1 += 1
+            } else if number == candidate2 {
+                counter2 += 1
+            } else if counter1 == 0 {
+                candidate1 = number
+                counter1 = 1
+            } else if counter2 == 0 {
+                candidate2 = number
+                counter2 += 1
+            } else {
+                counter1 -= 1
+                counter2 -= 1
+            }
+        }
+
+        // 2.validate the candidates
+        counter1 = 0
+        counter2 = 0
+
+        for number in nums {
+            if number == candidate1 {
+                counter1 += 1
+            } else if number == candidate2 {
+                counter2 += 1
+            }
+        }
+
+        if counter1 > nums.count / 3 {
+            result.append(candidate1)
+        }
+
+        if counter2 > nums.count / 3 {
+            result.append(candidate2)
+        }
+
+        return result
     }
 }
