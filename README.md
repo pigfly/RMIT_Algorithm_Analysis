@@ -56,7 +56,7 @@ It tries to port as many concepts from the original version as possible, but som
 [Contains Duplicate](./Array/Java/ContainsDuplicate.java)| [Java](./Array/Java/ContainsDuplicate.java), [Swift](./Array/Swift/ContainsDuplicate.swift)| Easy| O(n)| O(n)|
 [Contains Duplicate II](./Array/Java/ContainsDuplicateII.java)| [Java](./Array/Java/ContainsDuplicateII.java), [Swift](./Array/Swift/ContainsDuplicateII.swift)| Easy| O(n)| O(n)|
 [Remove Duplicates from Sorted Array](./Array/Java/RemoveDuplicatesFromSortedArray.java)| [Java](./Array/Java/RemoveDuplicatesFromSortedArray.java), [Swift](./Array/Swift/RemoveDuplicatesFromSortedArray.swift)| Easy| O(n)| O(1)|
-[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)| [Swift](./Array/RemoveDuplicatesFromSortedArrayII.swift)| Medium| O(n)| O(1)|
+[Remove Duplicates from Sorted Array II](./Array/Java/RemoveDuplicatesFromSortedArrayII.java)| [Java](./Array/Java/RemoveDuplicatesFromSortedArrayII.java), [Swift](./Array/Swift/RemoveDuplicatesFromSortedArrayII.swift)| Medium| O(n)| O(1)|
 [Move Zeroes](https://leetcode.com/problems/move-zeroes/)| [Swift](./Array/MoveZeroes.swift)| Easy| O(n)| O(1)|
 [Remove Element](https://leetcode.com/problems/remove-element/)| [Swift](./Array/RemoveElement.swift)| Easy| O(n)| O(1)|
 [Two Sum](https://leetcode.com/problems/two-sum/)| [Swift](./Array/TwoSum.swift)| Easy| O(n)| O(n)|
