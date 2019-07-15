@@ -38,16 +38,13 @@ class Solution {
 
     HashMap<Integer, Integer> numToCount = new HashMap<>();
     for (int num : nums) {
-      numToCount.put(num, numToCount.getOrDefault(num, 0) + 1);
-      if (numToCount.containsKey(num) && numToCount.get(num) > 1) {
+      if (numToCount.containsKey(num) && numToCount.get(num) == 1) {
         return true;
-      } else if (numToCount.containsKey(num)) {
-        numToCount.put(num, numToCount.get(num) + 1);
       } else {
-        numToCount.put(num, 0);
+        numToCount.put(num, 1);
       }
     }
-    
+
     return false;
   }
 }
