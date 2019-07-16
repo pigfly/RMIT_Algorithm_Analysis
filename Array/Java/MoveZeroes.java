@@ -38,6 +38,7 @@ class Solution {
     }
   }
 
+  // https://betterexplained.com/articles/swap-two-variables-using-xor/
   private void swap(int[] nums, int i, int j) {
     if (nums[i] == nums[j]) { return; }
     nums[i] ^= nums[j];

@@ -57,6 +57,25 @@
 
 class Solution {
   public int removeElement(int[] nums, int val) {
-      
+    int numsLength = nums.length;
+    if (numsLength == 0 || nums == null) { return 0; }
+
+    int counter = 0;
+    for (int i = numsLength - 1, insertPosition = numsLength - 1; i >= 0; i--) {
+      if (nums[i] == val) {
+        counter += 1;
+        swap(nums, i, insertPosition--);
+      }
+    }
+
+    return numsLength - counter;
+  }
+
+  // https://betterexplained.com/articles/swap-two-variables-using-xor/
+  private void swap(int[] nums, int i, int j) {
+    if (nums[i] == nums[j]) { return; }
+    nums[i] ^= nums[j];
+    nums[j] ^= nums[i];
+    nums[i] ^= nums[j];
   }
 }
