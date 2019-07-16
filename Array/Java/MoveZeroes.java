@@ -29,6 +29,19 @@
 
 class Solution {
   public void moveZeroes(int[] nums) {
-      
+    if (nums.length == 0 || nums == null) { return; }
+
+    for (int counter = 0, insertPosition = 0; counter < nums.length; counter++) {
+      if (nums[counter] != 0 ) {
+        swap(nums, counter, insertPosition++);
+      }
+    }
+  }
+
+  private void swap(int[] nums, int i, int j) {
+    if (nums[i] == nums[j]) { return; }
+    nums[i] ^= nums[j];
+    nums[j] ^= nums[i];
+    nums[i] ^= nums[j];
   }
 }
