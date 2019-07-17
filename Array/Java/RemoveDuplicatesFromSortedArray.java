@@ -53,6 +53,18 @@
 
 class Solution {
   public int removeDuplicates(int[] nums) {
-      
+    int numsLength = nums.length;
+    if (numsLength == 0 || nums == null) { return 0; }
+
+    int fast = 0, slow = 0;
+    while (fast < numsLength) {
+      if (nums[slow] == nums[fast]) {
+        ++fast;
+      } else {
+        nums[++slow] = nums[fast++];
+      }
+    }
+
+    return slow + 1;
   }
 }
