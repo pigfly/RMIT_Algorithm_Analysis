@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 /**                                                                                 
   ,dW"Yvd `7MMpMMMb.pMMMb.  M"""MMV     ,p6"bo   ,pW"Wq.`7MMpMMMb.pMMMb.      ,6"Yb.`7MM  `7MM  
  ,W'   MM   MM    MM    MM  '  AMV     6M'  OO  6W'   `Wb MM    MM    MM     8)   MM  MM    MM  
@@ -29,6 +31,22 @@
 
 class Solution {
   public int[] twoSum(int[] nums, int target) {
+    int[] result = new int[2];
+    if (nums == null || nums.length == 1) { return result; }
+    HashMap<Integer, Integer> lookup = new HashMap<>();
+
+    for (int i = 0; i < nums.length; i++) {
+      int number = nums[i];
       
+      if (lookup.get(number) != null && lookup.get(number) != i) {
+        result[0] = lookup.get(number);
+        result[1] = i;
+        return result;
+      } else {
+        lookup.put(target - number, i);
+      }
+    }
+    
+    return result;
   }
 }
