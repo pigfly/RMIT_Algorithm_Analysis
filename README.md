@@ -59,6 +59,7 @@ It tries to port as many concepts from the original version as possible, but som
 [Remove Duplicates from Sorted Array II](./Array/Java/RemoveDuplicatesFromSortedArrayII.java)| [Java](./Array/Java/RemoveDuplicatesFromSortedArrayII.java), [Swift](./Array/Swift/RemoveDuplicatesFromSortedArrayII.swift)| Medium| O(n)| O(1)|
 [Move Zeroes](./Array/Java/MoveZeroes.java)| [Java](./Array/Java/MoveZeroes.java), [Swift](./Array/Swift/MoveZeroes.swift)| Easy| O(n)| O(1)|
 [Remove Element](./Array/Java/RemoveElement.java)| [Java](./Array/Java/RemoveElement.java), [Swift](./Array/Swift/RemoveElement.swift)| Easy| O(n)| O(1)|
+[Subsets](./Array/Java/Subsets.java)| [Java](./Array/Java/Subsets.java), [Swift](./Array/Swift/Subsets.swift)| Easy| O(n)| O(1)|
 [Two Sum](./Array/Java/TwoSum.java)| [Java](./Array/Java/TwoSum.java), [Swift](./Array/Swift/TwoSum.swift)| Easy| O(n)| O(n)|
 [3Sum](./Array/Java/ThreeSum.java)| [Java](./Array/Java/ThreeSum.java), [Swift](./Array/Swift/ThreeSum.swift)| Medium| O(n^2)| O(nC3)|
 [3Sum Closest](https://leetcode.com/problems/3sum-closest/)| [Swift](./Array/ThreeSum.swift)| Medium| O(n^2)| O(nC3)|

@@ -15,26 +15,29 @@ import java.util.List;
  * official site： - https://qmz.com.au
  */
 
-// Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
+// Given a set of distinct integers, nums, return all possible subsets (the power set).
 
-// Note:
-
-// The solution set must not contain duplicate triplets.
+// Note: The solution set must not contain duplicate subsets.
 
 // Example:
 
-// Given array nums = [-1, 0, 1, 2, -1, -4],
-
-// A solution set is:
+// Input: nums = [1,2,3]
+// Output:
 // [
-//   [-1, 0, 1],
-//   [-1, -1, 2]
+//   [3],
+//   [1],
+//   [2],
+//   [1,2,3],
+//   [1,3],
+//   [2,3],
+//   [1,2],
+//   []
 // ]
 
 
 class Solution {
-  public List<List<Integer>> threeSum(int[] nums) {
-    ArrayList<List<Integer>> result = new ArrayList<>();
+  public List<List<Integer>> subsets(int[] nums) {
+    ArrayList<List<Integer>> result = new ArrayList();
     
     return result;
   }
