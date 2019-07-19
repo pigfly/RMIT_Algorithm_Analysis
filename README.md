@@ -60,7 +60,7 @@ It tries to port as many concepts from the original version as possible, but som
 [Move Zeroes](./Array/Java/MoveZeroes.java)| [Java](./Array/Java/MoveZeroes.java), [Swift](./Array/Swift/MoveZeroes.swift)| Easy| O(n)| O(1)|
 [Remove Element](./Array/Java/RemoveElement.java)| [Java](./Array/Java/RemoveElement.java), [Swift](./Array/Swift/RemoveElement.swift)| Easy| O(n)| O(1)|
 [Two Sum](./Array/Java/TwoSum.java)| [Java](./Array/Java/TwoSum.java), [Swift](./Array/Swift/TwoSum.swift)| Easy| O(n)| O(n)|
-[3Sum](https://leetcode.com/problems/3sum/)| [Swift](./Array/ThreeSum.swift)| Medium| O(n^2)| O(nC3)|
+[3Sum](./Array/Java/ThreeSum.java)| [Java](./Array/Java/ThreeSum.java), [Swift](./Array/Swift/ThreeSum.swift)| Medium| O(n^2)| O(nC3)|
 [3Sum Closest](https://leetcode.com/problems/3sum-closest/)| [Swift](./Array/ThreeSum.swift)| Medium| O(n^2)| O(nC3)|
 [4Sum](https://leetcode.com/problems/4sum/)| [Swift](./Array/FourSum.swift)| Medium| O(n^3)| O(nC4)|
 [Summary Ranges](https://leetcode.com/problems/summary-ranges/)| [Swift](./Array/SummaryRanges.swift)| Medium| O(n)| O(n)|
