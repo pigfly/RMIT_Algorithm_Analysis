@@ -149,7 +149,7 @@ It tries to port as many concepts from the original version as possible, but som
 | Title | Solution | Difficulty | Time | Space |
 | ----- | -------- | ---------- | ---- | ----- |
 [Binary Search](./Search/Java/BinarySearch.java)| [Java](./Search/Java/BinarySearch.java), [Swift](./Search/Swift/BinarySearch.swift)| Easy| O(logn)| O(1)|
-[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)| [Swift](./Stack/LongestValidParentheses.swift)| Hard| O(n)| O(n)|
+[First Position of Target](./Search/Java/FirstPositionOfTarget.java)| [Java](./Search/Java/FirstPositionOfTarget.java), [Swift](./Search/Swift/FirstPositionOfTarget.swift)| Easy| O(logn)| O(1)|
 
 ###### ... understand the structure
 
