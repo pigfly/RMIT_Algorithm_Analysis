@@ -5,7 +5,7 @@ Special thanks to [QMZiT](https://qmz.com.au)
 
 This is a production repo of [RMIT 2019 Algorithm Analysis](http://www1.rmit.edu.au/courses/004302).
 
-It tries to port as many concepts from the original version as possible, but some concepts were adapted for more pleasant and performant integration with cloud environment.
+Hands-on training on real coding interview questions, for fun (-:
 
 ## I came here because I want to ...
 
@@ -13,10 +13,8 @@ It tries to port as many concepts from the original version as possible, but som
 
 * ⏱ [How to ask question](http://www.catb.org/~esr/faqs/smart-questions.html)
 * ✈️ [Where to ask question](https://github.com/pigfly/RMIT_Algorithm_Analysis/issues)
-* ⏱ When does each session begin ?
-    * The web full-stack session will start at every Friday night starting at 8:00PM A.E.S.T.
 * 👨‍💻👩‍💻 Am I asking stupid question ?
-    * There is no stupid question, if you think something is not clear, ask away in [where to ask question](https://github.com/pigfly/RMIT_Algorithm_Analysis/issues)
+    * There is no stupid question, if you think something is not clear, ask away in [where to ask question](https://github.com/pigfly/RMIT_Algorithm_Analysis/issues) or in canvas.
 
 ###### ... lookup
 
@@ -26,6 +24,9 @@ It tries to port as many concepts from the original version as possible, but som
 
 * Java Style Guide. [Google Java Guide](https://google.github.io/styleguide/javaguide.html)
 * Swift Style Guide. [Google Swift Guide](https://google.github.io/swift/)
+
+##### 2019 Semester 2
+- [week1](./2019s2/week1)
 
 
 ##### Data Structures
@@ -168,3 +169,5 @@ It tries to port as many concepts from the original version as possible, but som
 │    Tree      │    │  Advanced    │
 └──────────────┘    └──────────────┘
 ```
+
+
