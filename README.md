@@ -151,6 +151,7 @@ It tries to port as many concepts from the original version as possible, but som
 [Binary Search](./Search/Java/BinarySearch.java)| [Java](./Search/Java/BinarySearch.java), [Swift](./Search/Swift/BinarySearch.swift)| Easy| O(logn)| O(1)|
 [First Position of Target](./Search/Java/FirstPositionOfTarget.java)| [Java](./Search/Java/FirstPositionOfTarget.java), [Swift](./Search/Swift/FirstPositionOfTarget.swift)| Easy| O(logn)| O(1)|
 [Last Position of Target](./Search/Java/LastPositionOfTarget.java)| [Java](./Search/Java/LastPositionOfTarget.java), [Swift](./Search/Swift/LastPositionOfTarget.swift)| Easy| O(logn)| O(1)|
+[First Bad Version](./Search/Java/FirstBadVersion.java)| [Java](./Search/Java/FirstBadVersion.java), [Swift](./Search/Swift/FirstBadVersion.swift)| Easy| O(logn)| O(1)|
 
 ###### ... understand the structure
 
