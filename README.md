@@ -3,7 +3,7 @@
 
 Special thanks to [QMZiT](https://qmz.com.au) 
 
-This is a production repo of [RMIT 2019 Algorithm Analysis](http://www1.rmit.edu.au/courses/004302).
+This is a practise repo of [RMIT 2019 Algorithm Analysis](http://www1.rmit.edu.au/courses/004302).
 
 Hands-on training on real coding interview questions, for fun (-:
 
@@ -14,7 +14,7 @@ Hands-on training on real coding interview questions, for fun (-:
 * ⏱ [How to ask question](http://www.catb.org/~esr/faqs/smart-questions.html)
 * ✈️ [Where to ask question](https://github.com/pigfly/RMIT_Algorithm_Analysis/issues)
 * 👨‍💻👩‍💻 Am I asking stupid question ?
-    * There is no stupid question, if you think something is not clear, ask away in [where to ask question](https://github.com/pigfly/RMIT_Algorithm_Analysis/issues) or in canvas.
+    * There is no stupid question, if you think something is not clear, ask away in [where to ask question](https://github.com/pigfly/RMIT_Algorithm_Analysis/issues).
 
 ###### ... lookup
 
