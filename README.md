@@ -123,6 +123,8 @@ Hands-on training on real coding interview questions, for fun (-:
 [Palindrome Linked List](./LinkedList/Java/PalindromeLinkedList.java)| [Java](./LinkedList/Java/PalindromeLinkedList.java), [Swift](./LinkedList/Swift/PalindromeLinkedList.swift)| Easy| O(n)| O(1)|
 [Reverse Nodes In k-Groups](./LinkedList/Java/ReverseNodesInKGroups.java)| [Java](./LinkedList/Java/ReverseNodesInKGroups.java), [Swift](./LinkedList/Swift/ReverseNodesInKGroups.swift)| Easy| O(n)| O(1)|
 [Partition List](./LinkedList/Java/PartitionList.java)| [Java](./LinkedList/Java/PartitionList.java), [Swift](./LinkedList/Swift/PartitionList.swift)| Easy| O(n)| O(1)|
+[Reverse Linked List II](./LinkedList/Java/ReverseLinkedListII.java)| [Java](./LinkedList/Java/ReverseLinkedListII.java), [Swift](./LinkedList/Swift/ReverseLinkedListII.swift)| Easy| O(n)| O(1)|
+[Swap Two Nodes In Linked List](./LinkedList/Java/SwapTwoNodesInLinkedList.java)| [Java](./LinkedList/Java/.java), [Swift](./LinkedList/Swift/SwapTwoNodesInLinkedList.swift)| Easy| O(n)| O(1)|
 [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Swift](./LinkedList/SwapNodesInPairs.swift)| Easy| O(n)| O(1)|
 [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)| [Swift](./LinkedList/RemoveLinkedListElements.swift)| Easy| O(n)| O(1)|
 [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| [Swift](./LinkedList/RemoveDuplicatesFromSortedList.swift)| Easy| O(n)| O(1)|
