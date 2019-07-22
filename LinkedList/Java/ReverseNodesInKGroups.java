@@ -58,19 +58,55 @@ public class Solution {
    * @return: a ListNode
    */
   public ListNode reverseKGroup(ListNode head, int k) {
-      // write your code here
+    // D->1->2->3->4->5->6->7
+    // D->[3->2->1]->[6->5->4]->7
+    ListNode dummy = new ListNode(0);
+    // D->head
+    dummy.next = head;
+
+    ListNode prev = dummy;
+    // say if you wish to reverse 3->[4->5->6]
+    // then the prev would be 3
+    while (prev != null) {
+      prev = reverseNextKNodes(prev, k);
+    }
+
+    return dummy.next;
   }
 
-  public ListNode reverseSubList(ListNode start, ListNode end) {
-    ListNode prev = start, cur = start.next;
+  // head->node1->node2->...->nodeK->nodeK+1
+  // =>
+  // head->nodeK->nodeK-1->...>node2->node1->nodeK+1
+  private ListNode reverseNextKNodes(ListNode head, int k) {
+    ListNode cur = head;
+    ListNode node1 = head.next;
 
-    while (cur != end) {
+    for (int i = 0; i < k; i++) {
+      if (cur == null) { return null; }
+
+      cur = cur.next;
+    }
+
+    // find kth node
+    if (cur == null) { return null; }
+    ListNode nodeK = cur;
+    ListNode nodeKPlus1 = cur.next;
+
+    // reverse
+    ListNode prev = head;
+    cur = head.next;
+
+    while (cur != nodeKPlus1) {
       ListNode temp = cur.next;
       cur.next = prev;
       prev = cur;
       cur = temp;
     }
 
-    return prev;
+    // connect to nodeK+1
+    head.next = nodeK;
+    node1.next = nodeKPlus1;
+
+    return node1;
   }
 }

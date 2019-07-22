@@ -121,7 +121,7 @@ Hands-on training on real coding interview questions, for fun (-:
 | ----- | -------- | ---------- | ---- | ----- |
 [Reverse Linked List](./LinkedList/Java/ReverseLinkedList.java)| [Java](./LinkedList/Java/ReverseLinkedList.java), [Swift](./LinkedList/Swift/ReverseLinkedList.swift)| Easy| O(n)| O(1)|
 [Palindrome Linked List](./LinkedList/Java/PalindromeLinkedList.java)| [Java](./LinkedList/Java/PalindromeLinkedList.java), [Swift](./LinkedList/Swift/PalindromeLinkedList.swift)| Easy| O(n)| O(1)|
-[Reverse Nodes In k-Groups](./LinkedList/Java/ReverseNodesInKGroups.java)| [Java](./LinkedList/Java/ReverseNodesInKGroups.java), [Swift](./LinkedList/Swift/ReverseNodesInKGroups.swift)| Easy| O(n)| O(1)|
+[Reverse Nodes In k-Groups](./LinkedList/Java/ReverseNodesInKGroups.java)| [Java](./LinkedList/Java/ReverseNodesInKGroups.java), [Swift](./LinkedList/Swift/ReverseNodesInKGroups.swift)| Hard| O(n)| O(1)|
 [Partition List](./LinkedList/Java/PartitionList.java)| [Java](./LinkedList/Java/PartitionList.java), [Swift](./LinkedList/Swift/PartitionList.swift)| Medium| O(n)| O(1)|
 [Reverse Linked List II](./LinkedList/Java/ReverseLinkedListII.java)| [Java](./LinkedList/Java/ReverseLinkedListII.java), [Swift](./LinkedList/Swift/ReverseLinkedListII.swift)| Easy| O(n)| O(1)|
 [Swap Two Nodes In Linked List](./LinkedList/Java/SwapTwoNodesInLinkedList.java)| [Java](./LinkedList/Java/SwapTwoNodesInLinkedList.java), [Swift](./LinkedList/Swift/SwapTwoNodesInLinkedList.swift)| Easy| O(n)| O(1)|
