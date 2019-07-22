@@ -122,7 +122,7 @@ Hands-on training on real coding interview questions, for fun (-:
 [Reverse Linked List](./LinkedList/Java/ReverseLinkedList.java)| [Java](./LinkedList/Java/ReverseLinkedList.java), [Swift](./LinkedList/Swift/ReverseLinkedList.swift)| Easy| O(n)| O(1)|
 [Palindrome Linked List](./LinkedList/Java/PalindromeLinkedList.java)| [Java](./LinkedList/Java/PalindromeLinkedList.java), [Swift](./LinkedList/Swift/PalindromeLinkedList.swift)| Easy| O(n)| O(1)|
 [Reverse Nodes In k-Groups](./LinkedList/Java/ReverseNodesInKGroups.java)| [Java](./LinkedList/Java/ReverseNodesInKGroups.java), [Swift](./LinkedList/Swift/ReverseNodesInKGroups.swift)| Easy| O(n)| O(1)|
-[Partition List](./LinkedList/Java/PartitionList.java)| [Java](./LinkedList/Java/PartitionList.java), [Swift](./LinkedList/Swift/PartitionList.swift)| Easy| O(n)| O(1)|
+[Partition List](./LinkedList/Java/PartitionList.java)| [Java](./LinkedList/Java/PartitionList.java), [Swift](./LinkedList/Swift/PartitionList.swift)| Medium| O(n)| O(1)|
 [Reverse Linked List II](./LinkedList/Java/ReverseLinkedListII.java)| [Java](./LinkedList/Java/ReverseLinkedListII.java), [Swift](./LinkedList/Swift/ReverseLinkedListII.swift)| Easy| O(n)| O(1)|
 [Swap Two Nodes In Linked List](./LinkedList/Java/SwapTwoNodesInLinkedList.java)| [Java](./LinkedList/Java/SwapTwoNodesInLinkedList.java), [Swift](./LinkedList/Swift/SwapTwoNodesInLinkedList.swift)| Easy| O(n)| O(1)|
 [Merge Two Sorted Lists](./LinkedList/Java/MergeTwoSortedLists.java)| [Java](./LinkedList/Java/MergeTwoSortedLists.java), [Swift](./LinkedList/Swift/MergeTwoSortedLists.swift)| Easy| O(n)| O(1)|
@@ -135,7 +135,6 @@ Hands-on training on real coding interview questions, for fun (-:
 [Rotate List](https://leetcode.com/problems/rotate-list/)| [Swift](./LinkedList/RotateList.swift)| Medium| O(n)| O(1)|
 [Reorder List](https://leetcode.com/problems/reorder-list/)| [Swift](./LinkedList/ReorderList.swift)| Medium| O(n)| O(1)|
 [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Swift](./LinkedList/MergeKSortedLists.swift)| Hard| O(mlogn)| O(1)|
-[Partition List](https://leetcode.com/problems/partition-list/)| [Swift](./LinkedList/PartitionList.swift)| Medium| O(n)| O(1)|
 
 ##### Stack
 | Title | Solution | Difficulty | Time | Space |

@@ -60,4 +60,17 @@ public class Solution {
   public ListNode reverseKGroup(ListNode head, int k) {
       // write your code here
   }
+
+  public ListNode reverseSubList(ListNode start, ListNode end) {
+    ListNode prev = start, cur = start.next;
+
+    while (cur != end) {
+      ListNode temp = cur.next;
+      cur.next = prev;
+      prev = cur;
+      cur = temp;
+    }
+
+    return prev;
+  }
 }
