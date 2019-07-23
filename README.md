@@ -126,8 +126,8 @@ Hands-on training on real coding interview questions, for fun (-:
 [Reverse Linked List II](./LinkedList/Java/ReverseLinkedListII.java)| [Java](./LinkedList/Java/ReverseLinkedListII.java), [Swift](./LinkedList/Swift/ReverseLinkedListII.swift)| Easy| O(n)| O(1)|
 [Swap Two Nodes In Linked List](./LinkedList/Java/SwapTwoNodesInLinkedList.java)| [Java](./LinkedList/Java/SwapTwoNodesInLinkedList.java), [Swift](./LinkedList/Swift/SwapTwoNodesInLinkedList.swift)| Easy| O(n)| O(1)|
 [Merge Two Sorted Lists](./LinkedList/Java/MergeTwoSortedLists.java)| [Java](./LinkedList/Java/MergeTwoSortedLists.java), [Swift](./LinkedList/Swift/MergeTwoSortedLists.swift)| Easy| O(n)| O(1)|
-[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Swift](./LinkedList/SwapNodesInPairs.swift)| Easy| O(n)| O(1)|
-[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)| [Swift](./LinkedList/RemoveLinkedListElements.swift)| Easy| O(n)| O(1)|
+[Swap Nodes in Pairs](./LinkedList/Java/SwapNodesInPairs.java)| [Java](./LinkedList/Java/SwapNodesInPairs.java), [Swift](./LinkedList/Swift/SwapNodesInPairs.swift)| Medium| O(n)| O(1)|
+[Remove Linked List Elements](./LinkedList/Java/RemoveLinkedListElements.java)| [Java](./LinkedList/Java/RemoveLinkedListElements.java), [Swift](./LinkedList/Swift/RemoveLinkedListElements.swift)| Easy| O(n)| O(1)|
 [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| [Swift](./LinkedList/RemoveDuplicatesFromSortedList.swift)| Easy| O(n)| O(1)|
 [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| [Swift](./LinkedList/RemoveDuplicatesFromSortedListII.swift)| Medium| O(n)| O(1)|
 [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Swift](./LinkedList/RemoveNthFromEnd.swift)| Easy| O(n)| O(1)|
