@@ -51,6 +51,31 @@ public class Solution {
      * @return: A ListNode
      */
     public ListNode partition(ListNode head, int x) {
-        // write your code here
+        if (head == null) { return null; }
+
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode prev = dummy, cur = head;
+
+        // find the first node that >= x
+        while (prev.next != null && prev.next.val < x) {
+            prev = prev.next;
+        }
+        cur = prev;
+
+        // move nodes < x
+        while (cur.next != null) {
+            if (cur.next.val < x) {
+                ListNode temp = cur.next;
+                cur.next = temp.next;
+                temp.next = prev.next;
+                prev.next = temp;
+                prev = prev.next;
+            } else {
+                cur = cur.next;
+            }
+        }
+
+        return dummy.next;
     }
 }
