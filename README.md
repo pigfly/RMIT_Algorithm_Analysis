@@ -3,7 +3,7 @@
 
 Special thanks to [QMZiT](https://qmz.com.au) 
 
-This is a practise repo of [RMIT 2019 Algorithm Analysis](http://www1.rmit.edu.au/courses/004302).
+This is practise repo of [RMIT 2019 Algorithm Analysis](http://www1.rmit.edu.au/courses/004302).
 
 Hands-on training on real coding interview questions, for fun (-:
 
