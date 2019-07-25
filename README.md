@@ -106,7 +106,7 @@ Hands-on training on real coding interview questions, for fun (-:
 [Add Strings](https://leetcode.com/problems/add-strings/)| [Swift](./String/LengthLastWord.swift)| Easy| O(n)| O(1)|
 [Multiply Strings](https://leetcode.com/problems/multiply-strings/)| [Swift](./String/MultiplyStrings.swift)| Medium| O(n)| O(1)|
 [Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)| [Swift](./String/PalindromePermutation.swift)| Easy| O(n)| O(n)|
-[Valid Anagram](./String/Java/ValidAnagram.java)| [Java](./String/Java/ValidAnagram.java), [Swift](./String/Swift/ValidAnagram.swift)| Easy| O(nlogn)| O(1)|
+[Valid Anagram](./String/Java/ValidAnagram.java)| [Java](./String/Java/ValidAnagram.java), [Swift](./String/Swift/ValidAnagram.swift)| Easy| O(n)| O(1)|
 [Ransom Note](https://leetcode.com/problems/ransom-note/)| [Swift](./String/RansomNote.swift)| Easy| O(n)| O(n)|
 [Group Anagrams](https://leetcode.com/problems/anagrams/)| [Swift](./String/GroupAnagrams.swift)| Medium| O(nmlogm + nlogn)| O(n)
 [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)| [Swift](./String/LongestCommonPrefix.swift)| Easy| O(nm)| O(m)|
