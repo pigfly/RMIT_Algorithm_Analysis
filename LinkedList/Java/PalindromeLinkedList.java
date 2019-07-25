@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**                                                                                 
   ,dW"Yvd `7MMpMMMb.pMMMb.  M"""MMV     ,p6"bo   ,pW"Wq.`7MMpMMMb.pMMMb.      ,6"Yb.`7MM  `7MM  
  ,W'   MM   MM    MM    MM  '  AMV     6M'  OO  6W'   `Wb MM    MM    MM     8)   MM  MM    MM  
@@ -32,16 +34,31 @@
 /**
  * Definition for singly-linked list.
  * public class ListNode {
- *     public var val: Int
- *     public var next: ListNode?
- *     public init(_ val: Int) {
- *         self.val = val
- *         self.next = nil
- *     }
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
  * }
  */
 class Solution {
-  func isPalindrome(_ head: ListNode?) -> Bool {
-      
+  public boolean isPalindrome(ListNode head) {
+    if (head == null) { return true; }
+
+    ArrayList<Integer> list = new ArrayList<>();
+    ListNode current = head;
+
+    while (current != null) {
+      list.add(current.val);
+      current = current.next;
+    }
+
+    int listSize = list.size();
+    for (int i = 0; i < listSize / 2; i++) {
+      int num1 = list.get(i), num2 = list.get(listSize - 1 - i);
+      if (num1 != num2) {
+        return false;
+      }
+    }
+
+    return true;
   }
 }
