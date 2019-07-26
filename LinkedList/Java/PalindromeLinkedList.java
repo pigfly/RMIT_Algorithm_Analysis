@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Stack;
 
 /**                                                                                 
   ,dW"Yvd `7MMpMMMb.pMMMb.  M"""MMV     ,p6"bo   ,pW"Wq.`7MMpMMMb.pMMMb.      ,6"Yb.`7MM  `7MM  
@@ -40,7 +41,8 @@ import java.util.ArrayList;
  * }
  */
 class Solution {
-  public boolean isPalindrome(ListNode head) {
+  // use array
+  public boolean isPalindromeV1(ListNode head) {
     if (head == null) { return true; }
 
     ArrayList<Integer> list = new ArrayList<>();
@@ -57,6 +59,33 @@ class Solution {
       if (num1 != num2) {
         return false;
       }
+    }
+
+    return true;
+  }
+
+  // use stack, two pointers
+  public boolean isPalindrome(ListNode head) {
+    if (head == null || head.next == null) { return true; }
+
+    Stack<Integer> firstHalfValues = new Stack<>();
+    ListNode fast = head, slow = head;
+
+    firstHalfValues.add(head.val);
+    while (fast.next != null && fast.next.next != null) {
+      slow = slow.next;
+      fast = fast.next.next;
+      firstHalfValues.add(slow.val);
+    }
+
+    // when total number is odd
+    if (fast.next == null) {
+      firstHalfValues.pop();
+    }
+
+    while (slow.next != null) {
+      slow = slow.next;
+      if (firstHalfValues.pop() != slow.val) { return false; }
     }
 
     return true;
