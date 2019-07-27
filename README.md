@@ -134,6 +134,7 @@ Hands-on training on real coding interview questions, for fun (-:
 [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)| [Swift](./LinkedList/OddEvenLinkedList.swift)| Medium| O(n)| O(1)|
 [Rotate List](./LinkedList/Java/RotateList.java)| [Java](./LinkedList/Java/RotateList.java), [Swift](./LinkedList/Swift/RotateList.swift)| Medium| O(n)| O(1)|
 [Reorder List](./LinkedList/Java/ReorderList.java)| [Java](./LinkedList/Java/ReorderList.java), [Swift](./LinkedList/Swift/ReorderList.swift)| Medium| O(n)| O(1)|
+[Copy List With Random Pointer](./LinkedList/Java/CopyListWithRandomPointer.java)| [Java](./LinkedList/Java/CopyListWithRandomPointer.java), [Swift](./LinkedList/Swift/CopyListWithRandomPointer.swift)| Medium| O(n)| O(1)|
 [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Swift](./LinkedList/MergeKSortedLists.swift)| Hard| O(mlogn)| O(1)|
 
 ##### Stack
