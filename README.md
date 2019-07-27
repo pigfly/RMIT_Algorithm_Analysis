@@ -132,7 +132,7 @@ Hands-on training on real coding interview questions, for fun (-:
 [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| [Swift](./LinkedList/RemoveDuplicatesFromSortedListII.swift)| Medium| O(n)| O(1)|
 [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Swift](./LinkedList/RemoveNthFromEnd.swift)| Easy| O(n)| O(1)|
 [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)| [Swift](./LinkedList/OddEvenLinkedList.swift)| Medium| O(n)| O(1)|
-[Rotate List](https://leetcode.com/problems/rotate-list/)| [Swift](./LinkedList/RotateList.swift)| Medium| O(n)| O(1)|
+[Rotate List](./LinkedList/Java/RotateList.java)| [Java](./LinkedList/Java/RotateList.java), [Swift](./LinkedList/Swift/RotateList.swift)| Medium| O(n)| O(1)|
 [Reorder List](./LinkedList/Java/ReorderList.java)| [Java](./LinkedList/Java/ReorderList.java), [Swift](./LinkedList/Swift/ReorderList.swift)| Medium| O(n)| O(1)|
 [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Swift](./LinkedList/MergeKSortedLists.swift)| Hard| O(mlogn)| O(1)|
 
