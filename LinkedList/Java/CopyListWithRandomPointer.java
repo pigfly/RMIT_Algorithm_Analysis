@@ -34,14 +34,75 @@
 
 /**
  * Definition for singly-linked list with a random pointer.
- * class RandomListNode {
+ * class Node {
  *     int label;
- *     RandomListNode next, random;
- *     RandomListNode(int x) { this.label = x; }
+ *     Node next, random;
+ *     Node(int x) { this.label = x; }
  * };
  */
 public class Solution {
-  public RandomListNode copyRandomList(RandomListNode head) {
+  public Node copyRandomList(Node head) {
+    if (head == null) { return head; }
+
+    Node newHead = createNewRandomList(head);
+    newHead = populateRandomNode(newHead);
+    newHead = splitIntoTwoLists(newHead);
+
+    return newHead;
+  }
+
+  // 1(2) -> 2(3) -> 3(1) -> null, () means random node
+  // ->
+  // 1(2) -> 1'(null) -> 2(3) -> 2'(null) -> 3(1) -> 3'(null) -> null, ' means duplication
+  private Node createNewRandomList(Node head) {
+    Node current = head;
+
+    while (current != null) {
+      Node newNode = new Node(current.val);
+      newNode.next = current.next;
+      current.next = newNode;
+
+      current = newNode.next;
+    }
+
+    return head;
+  }
+
+  // 1(2) -> 2(3) -> 3(1) -> null, () means random node
+  // ->
+  // 1(2) -> 1'(2) -> 2(3) -> 2'(3) -> 3(1) -> 3'(1) -> null, ' means duplication
+  private Node populateRandomNode(Node head) {
+    Node current = head;
+
+    while (current != null) {
+      if (current.random != null) { current.next.random = current.random.next; }
       
+      current = current.next.next;
+    }
+
+    return head;
+  }
+
+  // 1(2) -> 1'(2) -> 2(3) -> 2'(3) -> 3(1) -> 3'(1) -> null, ' means duplication
+  // ->
+  // 1(2) -> 2(3) -> 3(1) -> null, 1'(2) -> 2'(3) -> 3'(1) -> null
+  private Node splitIntoTwoLists(Node head) {
+    Node current = head;
+    Node resolution = head.next;
+
+    while (current != null) {
+      Node temp = current.next;
+
+      if (temp != null) {
+        current.next = temp.next;
+      } else {
+        current.next = null;
+        return resolution;
+      }
+      
+      current = temp;
+    }
+
+    return resolution;
   }
 }
