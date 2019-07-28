@@ -136,6 +136,7 @@ Hands-on training on real coding interview questions, for fun (-:
 [Reorder List](./LinkedList/Java/ReorderList.java)| [Java](./LinkedList/Java/ReorderList.java), [Swift](./LinkedList/Swift/ReorderList.swift)| Medium| O(n)| O(1)|
 [Copy List With Random Pointer](./LinkedList/Java/CopyListWithRandomPointer.java)| [Java](./LinkedList/Java/CopyListWithRandomPointer.java), [Swift](./LinkedList/Swift/CopyListWithRandomPointer.swift)| Medium| O(n)| O(1)|
 [Linked List Cycle](./LinkedList/Java/LinkedListCycle.java)| [Java](./LinkedList/Java/LinkedListCycle.java), [Swift](./LinkedList/Swift/LinkedListCycle.swift)| Easy| O(n)| O(1)|
+[Sort List](./LinkedList/Java/SortList.java)| [Java](./LinkedList/Java/SortList.java), [Swift](./LinkedList/Swift/SortList.swift)| Medium| O(nlogn)| O(1)|
 [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Swift](./LinkedList/MergeKSortedLists.swift)| Hard| O(mlogn)| O(1)|
 
 ##### Stack
@@ -158,6 +159,11 @@ Hands-on training on real coding interview questions, for fun (-:
 [First Position of Target](./Search/Java/FirstPositionOfTarget.java)| [Java](./Search/Java/FirstPositionOfTarget.java), [Swift](./Search/Swift/FirstPositionOfTarget.swift)| Easy| O(logn)| O(1)|
 [Last Position of Target](./Search/Java/LastPositionOfTarget.java)| [Java](./Search/Java/LastPositionOfTarget.java), [Swift](./Search/Swift/LastPositionOfTarget.swift)| Easy| O(logn)| O(1)|
 [First Bad Version](./Search/Java/FirstBadVersion.java)| [Java](./Search/Java/FirstBadVersion.java), [Swift](./Search/Swift/FirstBadVersion.swift)| Easy| O(logn)| O(1)|
+
+##### Sort
+| Title | Solution | Difficulty | Time | Space |
+| ----- | -------- | ---------- | ---- | ----- |
+[Merge Sort](./Sort/Java/MergeSort.java)| [Java](./Sort/Java/MergeSort.java), [Swift](./Sort/Swift/MergeSort.swift)| Easy| O(nlogn)| O(n)|
 
 ###### ... understand the structure
 
