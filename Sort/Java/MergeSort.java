@@ -17,6 +17,53 @@
 
 // Merge Sort
 
-class Solution {
+public class Solution {
   
+  public void mergeSort(int[] a) {
+    if (a == null || a.length == 0) { return; }
+
+    // performance consideration
+    // pass in temp list
+    int[] temp = new int[a.length];
+    sort(a, 0, a.length - 1, temp);
+  }
+
+  private void sort(int[] a, int start, int end, int[] temp) {
+    if (start >= end) { return; }
+
+    // left
+    sort(a, start, (start + end) / 2, temp);
+    // right
+    sort(a, (start + end) / 2, end, temp);
+    // merge
+    merge(a, start, end, temp);
+  }
+
+  // merge two sorted list
+  private void merge(int[] a, int start, int end, int[] temp) {
+    int middleIndex = (start + end) / 2;
+    int leftIndex = start, rightIndex = middleIndex + 1;
+    int tempIndex = start;
+
+    while (leftIndex <= middleIndex && rightIndex <= end) {
+      if (a[leftIndex] <= a[rightIndex]) {
+        temp[tempIndex++] = a[leftIndex++];
+      } else {
+        temp[tempIndex++] = a[rightIndex++];
+      }
+    }
+
+    while (leftIndex <= middleIndex) {
+      temp[tempIndex++] = a[leftIndex++];
+    }
+
+    while (rightIndex <= end) {
+      temp[tempIndex++] = a[rightIndex++];
+    }
+
+    // copy over
+    for (int i = start; i <= end; i++) {
+      a[i] = temp[i];
+    }
+  }
 }
