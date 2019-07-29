@@ -164,6 +164,7 @@ Hands-on training on real coding interview questions, for fun (-:
 | Title | Solution | Difficulty | Time | Space |
 | ----- | -------- | ---------- | ---- | ----- |
 [Merge Sort](./Sort/Java/MergeSort.java)| [Java](./Sort/Java/MergeSort.java), [Swift](./Sort/Swift/MergeSort.swift)| Easy| O(nlogn)| O(n)|
+[Quick Sort](./Sort/Java/QuickSort.java)| [Java](./Sort/Java/QuickSort.java), [Swift](./Sort/Swift/QuickSort.swift)| Easy| O(nlogn)| O(n)|
 
 ###### ... understand the structure
 
