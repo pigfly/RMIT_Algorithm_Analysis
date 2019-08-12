@@ -35,8 +35,28 @@
 // ]
 
 class Solution {
-    public List<List<Integer>> subsets(int[] nums) {
-        
-    }
+  /**
+   * @param S: A set of numbers.
+   * @return: A list of lists. All valid subsets.
+   */
+  public ArrayList<ArrayList<Integer>> subsets(int[] nums) { 
+      if(nums==null||nums.length==0) return null;
+      ArrayList<ArrayList<Integer>> results = new ArrayList<>();
+      //把空集开头的所有集合放入result
+      dfsHelper(nums,0,new ArrayList<Integer>(), results);
+      return results;
+  }
+
+  private void dfsHelper(int[] nums, 
+                          int startIndex, 
+                          ArrayList<Integer> subset, 
+                          ArrayList<ArrayList<Integer>> results){
+      results.add(new ArrayList<Integer>(subset));
+      for(int i = startIndex; i<nums.length;i++){
+          subset.add(nums[i]);
+          dfsHelper(nums,i+1,subset,results);
+          subset.remove(subset.size()-1);
+      }   
+  }
 }
   
