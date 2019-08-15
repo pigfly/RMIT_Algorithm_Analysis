@@ -31,11 +31,11 @@ public class Solution {
   private void sort(int[] a, int start, int end, int[] temp) {
     if (start >= end) { return; }
 
-    // left
+    // sort the left half of the list
     sort(a, start, (start + end) / 2, temp);
-    // right
-    sort(a, (start + end) / 2, end, temp);
-    // merge
+    // sort the right half of the list
+    sort(a, (start + end) / 2 + 1, end, temp);
+    // merge two sorted list
     merge(a, start, end, temp);
   }
 
@@ -45,6 +45,7 @@ public class Solution {
     int leftIndex = start, rightIndex = middleIndex + 1;
     int tempIndex = start;
 
+    // if there is still elements in both lists that remains unmerged    
     while (leftIndex <= middleIndex && rightIndex <= end) {
       if (a[leftIndex] <= a[rightIndex]) {
         temp[tempIndex++] = a[leftIndex++];
