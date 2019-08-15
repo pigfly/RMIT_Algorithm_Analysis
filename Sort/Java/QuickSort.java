@@ -33,6 +33,7 @@ public class Solution {
     int pivot = a[(start + end) / 2];
 
     // partition
+    // pivot could be in both left and right partition
     while (left <= right) {
       // find first position that left side violate a[left] < pivot
       while (left <= right && a[left] < pivot) { ++left; }
