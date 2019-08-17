@@ -63,7 +63,7 @@ Hands-on training on real coding interview questions, for fun (-:
 [Subsets](./Array/Java/Subsets.java)| [Java](./Array/Java/Subsets.java), [Swift](./Array/Swift/Subsets.swift)| Easy| O(n)| O(1)|
 [Two Sum](./Array/Java/TwoSum.java)| [Java](./Array/Java/TwoSum.java), [Swift](./Array/Swift/TwoSum.swift)| Easy| O(n)| O(n)|
 [3Sum](./Array/Java/ThreeSum.java)| [Java](./Array/Java/ThreeSum.java), [Swift](./Array/Swift/ThreeSum.swift)| Medium| O(n^2)| O(nC3)|
-[3Sum Closest](https://leetcode.com/problems/3sum-closest/)| [Swift](./Array/ThreeSum.swift)| Medium| O(n^2)| O(nC3)|
+[3Sum Closest](./Array/Java/ThreeSumClosest.java)| [Java](./Array/Java/ThreeSumClosest.java), [Swift](./Array/Swift/ThreeSumClosest.swift)| Medium| O(n^2)| O(nC3)|
 [4Sum](https://leetcode.com/problems/4sum/)| [Swift](./Array/FourSum.swift)| Medium| O(n^3)| O(nC4)|
 [Summary Ranges](https://leetcode.com/problems/summary-ranges/)| [Swift](./Array/SummaryRanges.swift)| Medium| O(n)| O(n)|
 [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)| [Swift](./Array/ShortestWordDistance.swift)| Easy| O(n)| O(1)|
