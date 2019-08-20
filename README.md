@@ -161,12 +161,12 @@ Hands-on training on real coding interview questions, for fun (-:
 [First Bad Version](./Search/Java/FirstBadVersion.java)| [Java](./Search/Java/FirstBadVersion.java), [Swift](./Search/Swift/FirstBadVersion.swift)| Easy| O(logn)| O(1)|
 
 ##### Sort
-| Title | Solution | Difficulty | Time | Space |
-| ----- | -------- | ---------- | ---- | ----- |
-[Merge Sort](./Sort/Java/MergeSort.java)| [Java](./Sort/Java/MergeSort.java), [Swift](./Sort/Swift/MergeSort.swift)| Easy| O(nlogn)| O(n)|
-[Quick Sort](./Sort/Java/QuickSort.java)| [Java](./Sort/Java/QuickSort.java), [Swift](./Sort/Swift/QuickSort.swift)| Easy| O(nlogn)| O(1)|
+| Title | Solution | Difficulty | Time | Space | Docs  |
+| ----- | -------- | ---------- | ---- | ----- | ----- |
+[Merge Sort](./Sort/Java/MergeSort.java)| [Java](./Sort/Java/MergeSort.java), [Swift](./Sort/Swift/MergeSort.swift)| Easy| O(nlogn)| O(n)| [Docs](./Sort/Docs/MergeSort.md)
+[Quick Sort](./Sort/Java/QuickSort.java)| [Java](./Sort/Java/QuickSort.java), [Swift](./Sort/Swift/QuickSort.swift)| Easy| O(nlogn)| O(1)| [Docs](./Sort/Docs/QuickSort.md)
 [Selection Sort](./Sort/Java/SelectionSort.java)| [Java](./Sort/Java/SelectionSort.java), [Swift](./Sort/Swift/SelectionSort.swift)| Easy| O(n^2)| O(1)|
-[Insertion Sort](./Sort/Java/InsertionSort.java)| [Java](./Sort/Java/InsertionSort.java), [Swift](./Sort/Swift/InsertionSort.swift)| Easy| O(n^2)| O(1)|
+[Insertion Sort](./Sort/Java/InsertionSort.java)| [Java](./Sort/Java/InsertionSort.java), [Swift](./Sort/Swift/InsertionSort.swift)| Easy| O(n^2)| O(1)| [Docs](./Sort/Docs/InsertionSort.md)
 
 ###### ... understand the structure
 
