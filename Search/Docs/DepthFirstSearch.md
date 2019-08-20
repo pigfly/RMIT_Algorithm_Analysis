@@ -59,7 +59,7 @@ func depthFirstSearch(_ graph: Graph, source: Node) -> [String] {
 }
 ```
 
-Where a [breadth-first search](../Breadth-First%20Search/) visits all immediate neighbors first, a depth-first search tries to go as deep down the tree or graph as it can.
+Where a [breadth-first search](./BreadthFirstSearch.md) visits all immediate neighbors first, a depth-first search tries to go as deep down the tree or graph as it can.
 
 Put this code in a playground and test it like so:
 
