@@ -51,7 +51,7 @@ All the elements less than the pivot go into a new array called `less`. All the 
 
 Once we have these three arrays, `quicksort()` recursively sorts the `less` array and the `greater` array, then glues those sorted subarrays back together with the `equal` array to get the final result.
 
-## An case study
+## Case study
 
 Let's walk through the example. The array is initially:
 
