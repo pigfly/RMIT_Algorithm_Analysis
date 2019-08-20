@@ -165,7 +165,7 @@ Hands-on training on real coding interview questions, for fun (-:
 | ----- | -------- | ---------- | ---- | ----- | ----- |
 [Merge Sort](./Sort/Java/MergeSort.java)| [Java](./Sort/Java/MergeSort.java), [Swift](./Sort/Swift/MergeSort.swift)| Easy| O(nlogn)| O(n)| [Docs](./Sort/Docs/MergeSort.md)
 [Quick Sort](./Sort/Java/QuickSort.java)| [Java](./Sort/Java/QuickSort.java), [Swift](./Sort/Swift/QuickSort.swift)| Easy| O(nlogn)| O(1)| [Docs](./Sort/Docs/QuickSort.md)
-[Selection Sort](./Sort/Java/SelectionSort.java)| [Java](./Sort/Java/SelectionSort.java), [Swift](./Sort/Swift/SelectionSort.swift)| Easy| O(n^2)| O(1)|
+[Selection Sort](./Sort/Java/SelectionSort.java)| [Java](./Sort/Java/SelectionSort.java), [Swift](./Sort/Swift/SelectionSort.swift)| Easy| O(n^2)| O(1)| [Docs](./Sort/Docs/SelectionSort.md)
 [Insertion Sort](./Sort/Java/InsertionSort.java)| [Java](./Sort/Java/InsertionSort.java), [Swift](./Sort/Swift/InsertionSort.swift)| Easy| O(n^2)| O(1)| [Docs](./Sort/Docs/InsertionSort.md)
 
 ###### ... understand the structure
