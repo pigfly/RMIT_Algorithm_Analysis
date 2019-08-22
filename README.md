@@ -153,9 +153,10 @@ Hands-on training on real coding interview questions, for fun (-:
 [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)| [Swift](./Stack/PostorderTraversal.swift)| Hard| O(n)| O(n)|
 
 ##### Search
-| Title | Solution | Difficulty | Time | Space |
-| ----- | -------- | ---------- | ---- | ----- |
+| Title | Solution | Difficulty | Time | Space | Docs  |
+| ----- | -------- | ---------- | ---- | ----- | ----- |
 [Binary Search](./Search/Java/BinarySearch.java)| [Java](./Search/Java/BinarySearch.java), [Swift](./Search/Swift/BinarySearch.swift)| Easy| O(logn)| O(1)|
+[Binary Search Tree](./Search/Docs/BST.md)| [Java](./Search/Java/BinarySearchTree.java), [Swift](./Search/Swift/BinarySearchTree.swift)| Easy| O(logn)| O(1)| [Docs](./Search/Docs/BST.md)
 [First Position of Target](./Search/Java/FirstPositionOfTarget.java)| [Java](./Search/Java/FirstPositionOfTarget.java), [Swift](./Search/Swift/FirstPositionOfTarget.swift)| Easy| O(logn)| O(1)|
 [Last Position of Target](./Search/Java/LastPositionOfTarget.java)| [Java](./Search/Java/LastPositionOfTarget.java), [Swift](./Search/Swift/LastPositionOfTarget.swift)| Easy| O(logn)| O(1)|
 [First Bad Version](./Search/Java/FirstBadVersion.java)| [Java](./Search/Java/FirstBadVersion.java), [Swift](./Search/Swift/FirstBadVersion.swift)| Easy| O(logn)| O(1)|
