@@ -171,4 +171,4 @@ Hands-on training on real coding interview questions, for fun (-:
 
 ###### ... understand the structure
 
-![ADT](./Asset/ADT.png)
+![ADT](./Assets/ADT.png)
