@@ -43,8 +43,9 @@ Hands-on training on real coding interview questions, for fun (-:
 * [Union Find](#union-find)
 
 ##### Array
-| Title | Solution | Difficulty | Time | Space |
-| ----- | -------- | ---------- | ---- | ----- |
+| Title | Solution | Difficulty | Time | Space | Docs  |
+| ----- | -------- | ---------- | ---- | ----- | ----- |
+[Fixed Array](./Array/Docs/Array.md)| [Java](./Array/Java/FixedSizeArray.java), [Swift](./Array/Swift/Array.swift)| Easy| O(n)| O(n)| [Docs](./Array/Docs/Array.md)
 [Max Consecutive Ones](./Array/Java/MaxConsecutiveOnes.java)| [Java](./Array/Java/MaxConsecutiveOnes.java), [Swift](./Array/Swift/MaxConsecutiveOnes.swift)| Easy| O(n)| O(1)|
 [Heaters](./Array/Java/Heaters.java)| [Java](./Array/Java/Heaters.java), [Swift](./Array/Swift/Heaters.swift)| Easy| O(nlogn)| O(1)|
 [Number of Boomerangs](./Array/Java/NumberOfBoomerangs.java)| [Java](./Array/Java/NumberOfBoomerangs.java), [Swift](./Array/Swift/NumberOfBoomerangs.swift)| Easy| O(n ^ 2)| O(n)|
