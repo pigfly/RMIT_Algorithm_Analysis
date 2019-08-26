@@ -153,6 +153,12 @@ Hands-on training on real coding interview questions, for fun (-:
 [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)| [Swift](./Stack/InorderTraversal.swift)| Medium| O(n)| O(n)|
 [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)| [Swift](./Stack/PostorderTraversal.swift)| Hard| O(n)| O(n)|
 
+##### Tree
+| Title | Solution | Difficulty | Time | Space | Docs  |
+| ----- | -------- | ---------- | ---- | ----- | ----- |
+[Heap](./Tree/Java/Heap.java)| [Java](./Tree/Java/Heap.java), [Swift](./Tree/Swift/Heap.swift)| Easy| O(h)| O(n)| [Docs](./Tree/Docs/Heap.md)
+[AVL Tree](./Tree/Java/AVLTree.java)| [Java](./Tree/Java/AVLTree.java), [Swift](./Tree/Swift/AVLTree.swift)| Easy| O(h)| O(n)| [Docs](./Tree/Docs/AVLTree.md)
+
 ##### Search
 | Title | Solution | Difficulty | Time | Space | Docs  |
 | ----- | -------- | ---------- | ---- | ----- | ----- |
