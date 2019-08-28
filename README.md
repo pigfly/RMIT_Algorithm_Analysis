@@ -162,6 +162,7 @@ Hands-on training on real coding interview questions, for fun (-:
 ##### Search
 | Title | Solution | Difficulty | Time | Space | Docs  |
 | ----- | -------- | ---------- | ---- | ----- | ----- |
+[Depth First Search](./Search/Swift/DFS.swift)| [Java](./Search/Java/DFS.java), [Swift](./Search/Swift/DFS.swift)| Easy| N/A | N/A | [Docs](./Search/Docs/DepthFirstSearch.md)
 [Binary Search](./Search/Java/BinarySearch.java)| [Java](./Search/Java/BinarySearch.java), [Swift](./Search/Swift/BinarySearch.swift)| Easy| O(logn)| O(1)|
 [Binary Search Tree](./Search/Docs/BST.md)| [Java](./Search/Java/BinarySearchTree.java), [Swift](./Search/Swift/BinarySearchTree.swift)| Easy| O(logn)| O(1)| [Docs](./Search/Docs/BST.md)
 [First Position of Target](./Search/Java/FirstPositionOfTarget.java)| [Java](./Search/Java/FirstPositionOfTarget.java), [Swift](./Search/Swift/FirstPositionOfTarget.swift)| Easy| O(logn)| O(1)|
