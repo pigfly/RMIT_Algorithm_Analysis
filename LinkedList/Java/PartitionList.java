@@ -48,7 +48,7 @@ public class Solution {
     /**
      * @param head: The first node of linked list
      * @param x: An integer
-     * @return: A ListNode
+     * @return: A List Node
      */
     public ListNode partition(ListNode head, int x) {
         if (head == null) { return null; }
